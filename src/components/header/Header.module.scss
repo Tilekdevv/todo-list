@@ -1,0 +1,16 @@
+#header {
+  background-color: white;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .header_nav {
+      display: flex;
+      gap: 50px;
+      h5 {
+        color: black;
+        font-size: 30px;
+      }
+    }
+  }
+}
