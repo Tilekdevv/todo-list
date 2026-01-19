@@ -7,7 +7,7 @@ const Menu = () => {
 
   useEffect(() => {
     readProduct();
-  }, [readProduct]);
+  }, []);
 
   return (
     <div className="container">
